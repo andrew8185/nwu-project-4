@@ -10,8 +10,10 @@ We analyzed a 2017 Kaggle dataset that contained information on over 20,000 Kick
 We decided to use a random forest classifier as opposed to another classification model such as a logistic regression for a few reasons. First, a random forest model can handle a large number of input features and still maintain high accuracy. Second, it is less prone to overfitting compared to other decision tree-based algorithms. Finally, it can provide feature importance scores, which can help in understanding the importance of different input features in predicting the target variable.
 
 Model Performance:
+
+<img width="383" alt="Screen Shot 2023-04-17 at 6 49 24 PM" src="https://user-images.githubusercontent.com/116044037/232634547-e177506a-25e4-4e77-af42-1c717f76a71d.png">
+
 With an accuracy of .772 the model was able to correctly predict the outcome in 77.2% of the cases. However with a true recall of .57 that means of all true positives outcomes the model only predicted 57% of them. The actual ability of the model to predict success is only marginally better than a coin flip.
 
 Limitations:
-One limitations in the dataset was that we did not analyze positive or negative correlations. Add more here
-Another limitation was that the data had not been updated in 6 years.  This is a limitation because the market can change in that time.  Also, it would have been interesting to see COVID data since there was a shift in spending during that time period. 
+One limitations in the dataset was that we did not analyze positive or negative correlations. Another limitation was that the data had not been updated in 6 years.  This is a limitation because the market can change in that time.  Also, it would have been interesting to see COVID data since there was a shift in spending during that time period. 
