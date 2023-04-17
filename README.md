@@ -8,9 +8,8 @@ Dataset and Approach:
 We analyzed a 2017 Kaggle dataset that contained information on over 20,000 Kickstarter campaigns. The dataset included fields such as the fundraising goal, amount pledged, length of time of the campaign, number of backers count, project category,  campaign name length, and success status.  To prepare the data for a random forest classification model, we removed some fields that were deterministic in nature (too good at predicting the outcome), such as amount pledged, fundraising goal, and backers count. We also performed feature engineering, such as one-hot encoding, to allow for categorical variables to be included in the model.  Once a random forest model was trained, we were able to predict the success or failure of a Kickstarter campaign based on the remaining fields in the dataset with the goal of providing valuable insights for creators seeking to launch successful campaigns in the future.
 
 We decided to use a random forest classifier as opposed to another classification model such as a logistic regression for a few reasons. First, a random forest model can handle a large number of input features and still maintain high accuracy. Second, it is less prone to overfitting compared to other decision tree-based algorithms. Finally, it can provide feature importance scores, which can help in understanding the importance of different input features in predicting the target variable.
-Model 
 
-Performance:
+Model Performance:
 With an accuracy of .772 the model was able to correctly predict the outcome in 77.2% of the cases. However with a true recall of .57 that means of all true positives outcomes the model only predicted 57% of them. The actual ability of the model to predict success is only marginally better than a coin flip.
 
 Limitations:
